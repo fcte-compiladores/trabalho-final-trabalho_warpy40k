@@ -100,7 +100,7 @@ O WarPy40K não é apenas uma linguagem de programação - é uma homenagem a um
 
 A linguagem WarPy40K pode ser utilizada em diversos contextos educacionais, recreativos e práticos:
 
-### 📚 Educação e Aprendizado
+### Educação e Aprendizado
 
 **Ensino de Compiladores**
 - Demonstrar conceitos de parsing, AST e interpretação de forma prática
@@ -113,7 +113,7 @@ A linguagem WarPy40K pode ser utilizada em diversos contextos educacionais, recr
 - Demonstrações interativas sobre criação de DSLs (Domain-Specific Languages)
 - Exemplos práticos de como combinar hobbies com programação
 
-### 🎮 Entretenimento e Comunidade
+### Entretenimento e Comunidade
 
 **Gamificação do Aprendizado**
 - Tornar o estudo de compiladores mais envolvente para fãs de Warhammer 40K
@@ -126,7 +126,7 @@ A linguagem WarPy40K pode ser utilizada em diversos contextos educacionais, recr
 - Geradores de lore e narrativas temáticas
 - Calculadoras de pontos de exército
 
-### 🔧 Aplicações Práticas
+### Aplicações Práticas
 
 **Prototipagem Rápida**
 - Testar conceitos de algoritmos com sintaxe única e memorável
@@ -148,7 +148,7 @@ if wound_roll <= 2:
 burn_the_heretic("Ferimento em: " + str(wound_roll) + "+")
 ```
 
-### 🎯 Casos de Uso Específicos
+### Casos de Uso Específicos
 
 **1. Simulação de Batalhas Simples**
 - Implementar sistemas de combate básicos
@@ -170,7 +170,7 @@ burn_the_heretic("Ferimento em: " + str(wound_roll) + "+")
 - Exercícios de algoritmos em contexto temático
 - Projetos de programação criativa
 
-### 🚀 Expansibilidade
+### Expansibilidade
 
 **Extensões Futuras Possíveis**
 - Integração com APIs de dados do Warhammer 40K
