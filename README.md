@@ -85,16 +85,16 @@ O WarPy40K não é apenas uma linguagem de programação - é uma homenagem a um
 
 *"Knowledge is power, guard it well."* - Adeptus Mechanicus
 
-## Features
+## Funcionalidades
 
-- **Custom Language**: Warhammer 40K-inspired syntax and commands
-- **Arithmetic Operations**: Full support for addition (+), subtraction (-), multiplication (*), division (/), and modulo (%) with proper operator precedence
-- **Control Flow**: If-else conditionals, for loops, and while loops
-- **Variables**: Typed variable declarations and assignments
-- **Interpreter**: Execute `.wp40k` scripts directly with Python
-- **Linter**: Comprehensive static analysis for syntax, variables, and style ([see linter docs](./docs/LINTER_README.md))
-- **Syntax Highlighting**: Official extensions for VS Code and Sublime Text
-- **Test Files**: Example scripts for learning and validation
+- **Linguagem Customizada**: Sintaxe e comandos inspirados no Warhammer 40K
+- **Operações Aritméticas**: Suporte completo para adição (+), subtração (-), multiplicação (*), divisão (/) e módulo (%) com precedência adequada de operadores
+- **Controle de Fluxo**: Condicionais if-else, loops for e loops while
+- **Variáveis**: Declarações de variáveis tipadas e atribuições
+- **Interpretador**: Execute scripts `.wp40k` diretamente com Python
+- **Linter**: Análise estática abrangente para sintaxe, variáveis e estilo ([veja documentação do linter](./docs/LINTER_README.md))
+- **Destaque de Sintaxe**: Extensões oficiais para VS Code e Sublime Text
+- **Arquivos de Teste**: Scripts de exemplo para aprendizado e validação
 
 ## Instalação
 
@@ -174,7 +174,7 @@ for i in 1..end:
 ## Ferramentas
 
 - **Linter**: Veja [LINTER_README.md](./docs/LINTER_README.md) para códigos de erro, integração e uso avançado.
-- **Destaque de Sintaxe**:
+- **Highlighter**:
   - VS Code: Veja `warpy40k-syntax/README.md`
   - Sublime Text: Veja `warpy40k-sublime/README.md`
 
@@ -248,6 +248,10 @@ O projeto está organizado nos seguintes módulos principais:
 1. **Tratamento de Erros**: Algumas mensagens de erro poderiam ser mais específicas
 2. **Performance**: Para scripts muito grandes, a interpretação pode ser lenta
 3. **Depuração**: Falta de ferramentas de debug integradas
+4. **Loops Infinitos**: Alguns testes podem entrar em loop infinito devido a condições malformadas
+5. **Acesso a Atributos**: Sintaxe de ponto (`.`) para acesso a atributos ainda não implementada
+6. **Operadores Lógicos Complexos**: Expressões lógicas aninhadas podem causar problemas de parsing
+7. **Comentários em Linha**: Comentários no meio de expressões podem interferir no parsing
 
 ### Melhorias Incrementais Sugeridas
 
@@ -257,6 +261,10 @@ O projeto está organizado nos seguintes módulos principais:
 4. **Modo Debug**: Adicionar flag `--debug` para execução passo-a-passo
 5. **Otimizações**: Cache de AST para arquivos não modificados
 6. **Documentação**: Melhorar documentação inline e exemplos
+7. **Timeout para Testes**: Implementar timeout automático para prevenir loops infinitos
+8. **Acesso a Atributos**: Implementar sintaxe de ponto para objetos e estruturas
+9. **Melhor Suporte a Strings**: Expandir operações com strings e interpolação
+10. **Sistema de Imports**: Permitir importação de outros módulos WarPy40K
 
 ## Estrutura do Projeto
 
@@ -276,7 +284,7 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICEN
 
 ---
 
-## For the Emperor!
+*Pelo Imperador!*
 
 ```text
                                                                                                                                                              
