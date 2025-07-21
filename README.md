@@ -96,6 +96,95 @@ O WarPy40K não é apenas uma linguagem de programação - é uma homenagem a um
 - **Destaque de Sintaxe**: Extensões oficiais para VS Code e Sublime Text
 - **Arquivos de Teste**: Scripts de exemplo para aprendizado e validação
 
+## Casos de Uso e Aplicações
+
+A linguagem WarPy40K pode ser utilizada em diversos contextos educacionais, recreativos e práticos:
+
+### 📚 Educação e Aprendizado
+
+**Ensino de Compiladores**
+- Demonstrar conceitos de parsing, AST e interpretação de forma prática
+- Exemplificar design de linguagens de programação com identidade temática
+- Ensinar análise estática através do linter integrado
+- Mostrar implementação de extensões de editor (VS Code/Sublime Text)
+
+**Workshops e Palestras**
+- Material didático para conferências de programação
+- Demonstrações interativas sobre criação de DSLs (Domain-Specific Languages)
+- Exemplos práticos de como combinar hobbies com programação
+
+### 🎮 Entretenimento e Comunidade
+
+**Gamificação do Aprendizado**
+- Tornar o estudo de compiladores mais envolvente para fãs de Warhammer 40K
+- Criar desafios de programação com temática do universo grimdark
+- Desenvolver mini-jogos ou simulações usando a sintaxe temática
+
+**Projetos da Comunidade**
+- Scripts para calcular estatísticas de batalha do jogo de tabuleiro
+- Simuladores de combate simples
+- Geradores de lore e narrativas temáticas
+- Calculadoras de pontos de exército
+
+### 🔧 Aplicações Práticas
+
+**Prototipagem Rápida**
+- Testar conceitos de algoritmos com sintaxe única e memorável
+- Criar protótipos de sistemas de regras para jogos
+- Desenvolver ferramentas auxiliares para hobbies relacionados
+
+**Automação Temática**
+```warpy40k
+# Exemplo: Calculadora de dano de armas
+weapon_strength: dg = 8
+target_toughness: dg = 4
+armor_save: dg = 3
+
+# Calcular chance de ferimento
+wound_roll: dg = 7 - weapon_strength + target_toughness
+if wound_roll <= 2:
+    wound_roll = 2
+
+burn_the_heretic("Ferimento em: " + str(wound_roll) + "+")
+```
+
+### 🎯 Casos de Uso Específicos
+
+**1. Simulação de Batalhas Simples**
+- Implementar sistemas de combate básicos
+- Calcular probabilidades de acerto e ferimento
+- Simular sequências de ataques e defesas
+
+**2. Geração de Conteúdo**
+- Scripts para gerar nomes de personagens imperiais
+- Criação automática de missões e cenários
+- Geração de estatísticas de unidades
+
+**3. Ferramentas de Apoio ao Jogo**
+- Calculadoras de pontos de exército
+- Verificadores de regras básicas
+- Contadores de recursos e turnos
+
+**4. Ensino de Lógica de Programação**
+- Introdução a conceitos básicos com vocabulário familiar
+- Exercícios de algoritmos em contexto temático
+- Projetos de programação criativa
+
+### 🚀 Expansibilidade
+
+**Extensões Futuras Possíveis**
+- Integração com APIs de dados do Warhammer 40K
+- Exportação para outras linguagens (transpilação)
+- Interface gráfica temática para desenvolvimento
+- Plugins para ferramentas de desenvolvimento de jogos
+
+**Comunidade e Contribuições**
+- Base para desenvolvedores criarem suas próprias extensões temáticas
+- Framework para outras linguagens inspiradas em universos ficcionais
+- Modelo para projetos educacionais criativos
+
+O WarPy40K serve tanto como ferramenta educacional séria quanto como projeto divertido que une programação e cultura geek, demonstrando que o aprendizado técnico pode ser envolvente e memorável.
+
 ## Instalação
 
 1. Instale as dependências:
@@ -111,8 +200,8 @@ O WarPy40K não é apenas uma linguagem de programação - é uma homenagem a um
 
 ## Integrantes
 
-- Nome: [Davi Casseb] - Matrícula: [211031682] - Turma: [18h]
-- Nome: [Nathan Abreu] - Matrícula: [221022696] - Turma: [18h]
+- Nome: Davi Casseb - Matrícula: 211031682 - Turma: 18h
+- Nome: Nathan Abreu - Matrícula: 221022696 - Turma: 18h
 
 ## Uso
 
