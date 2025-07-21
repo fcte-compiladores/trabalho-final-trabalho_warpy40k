@@ -1,6 +1,6 @@
 # WarPy40K
 
-A Warhammer 40K-themed toy programming language and interpreter, designed for fun, learning, and extensibility. WarPy40K features a custom syntax, unique commands, and robust tooling including a linter and syntax highlighting extensions for VS Code and Sublime Text.
+Uma linguagem de programação e interpretador "toy" com tema Warhammer 40K, projetada para diversão, aprendizado e extensibilidade. WarPy40K apresenta sintaxe personalizada, comandos exclusivos e ferramentas robustas, incluindo um linter e extensões de destaque de sintaxe para VS Code e Sublime Text.
 
 ## Sobre o Universo Warhammer 40K
 
@@ -198,11 +198,6 @@ O WarPy40K serve tanto como ferramenta educacional séria quanto como projeto di
    cd trabalho-final-trabalho_warpy40k
    ```
 
-## Integrantes
-
-- Nome: Davi Casseb - Matrícula: 211031682 - Turma: 18h
-- Nome: Nathan Abreu - Matrícula: 221022696 - Turma: 18h
-
 ## Uso
 
 Para rodar um script WarPy40K:
@@ -370,6 +365,11 @@ Contribuições são bem-vindas! Por favor, consulte os READMEs do linter e das 
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para detalhes completos.
+
+## Integrantes
+
+- Nome: Davi Casseb - Matrícula: 211031682 - Turma: 18h
+- Nome: Nathan Abreu - Matrícula: 221022696 - Turma: 18h
 
 ---
 
