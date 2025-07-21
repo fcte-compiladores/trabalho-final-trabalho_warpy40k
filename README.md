@@ -73,7 +73,7 @@ O projeto WarPy40K tem múltiplos objetivos educacionais e recreativos:
 
 ### Por Que Warhammer 40K?
 
-A escolha do universo Warhammer 40K para esta linguagem não é por acaso:
+Por que foi escolhido o universo Warhammer 40K?
 
 1. **Vocabulário Rico**: O universo possui terminologia técnica extensa que se adapta bem a conceitos de programação
 2. **Comunidade Apaixonada**: Fãs de 40K apreciam referências autênticas e detalhadas ao lore
@@ -96,61 +96,62 @@ O WarPy40K não é apenas uma linguagem de programação - é uma homenagem a um
 - **Syntax Highlighting**: Official extensions for VS Code and Sublime Text
 - **Test Files**: Example scripts for learning and validation
 
-## Installation
+## Instalação
 
-1. Install dependencies:
+1. Instale as dependências:
    ```bash
    pip install lark-parser
    ```
 
-2. Clone the repository:
+2. Clone o repositório:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/WarPy40K.git
-   cd WarPy40K
+   git clone https://github.com/fcte-compiladores/trabalho-final-trabalho_warpy40k.git
+   cd trabalho-final-trabalho_warpy40k
    ```
 
 ## Integrantes
 
-- Nome: [Seu Nome] - Matrícula: [Sua Matrícula] - Turma: [Sua Turma]
+- Nome: [Davi Casseb] - Matrícula: [211031682] - Turma: [18h]
+- Nome: [Nathan Abreu] - Matrícula: [221022696] - Turma: [18h]
 
-## Usage
+## Uso
 
-To run a WarPy40K script:
+Para rodar um script WarPy40K:
 ```bash
-python3 warpy_interpreter.py tests/test_fibonacci.wp40k
+python3 warpy_interpreter.py tests/test_simple.wp40k
 ```
 
-To lint a script:
+Para rodar o lint num script:
 ```bash
-python3 warpy_linter.py tests/test_fibonacci.wp40k
+python3 warpy_linter.py tests/test_simple.wp40k
 ```
 
-## Example
+## Exemplo
 
 ```warpy40k
-# Basic arithmetic operations
+# Operações aritméticas básicas
 a: dg = 10
 b: dg = 3
 c: dg = 2
 
-# Addition and subtraction
+# Adição e subtração
 result1: dg = a + b      # 13
 result2: dg = a - b      # 7
 
-# Multiplication and division
+# Multiplicação e divisão
 result3: dg = a * b      # 30
 result4: dg = a / b      # 3.333...
 
-# Modulo operation
+# Operação de módulo
 result5: dg = a % b      # 1
 
-# Complex expressions with precedence
-complex: dg = a + b * c  # 16 (not 26 due to precedence)
+# Expressões complexas com precedência
+complex: dg = a + b * c  # 16 (não 26 devido à precedência)
 
-# Parentheses to override precedence
+# Parênteses para alterar precedência
 paren: dg = (a + b) * c  # 26
 
-# Fibonacci sequence with arithmetic
+# Sequência de Fibonacci com aritmética
 start: dg = 0
 end: dg = 5
 
@@ -170,12 +171,12 @@ for i in 1..end:
         burn_the_heretic(a)
 ```
 
-## Tooling
+## Ferramentas
 
-- **Linter**: See [LINTER_README.md](./docs/LINTER_README.md) for error codes, integration, and advanced usage.
-- **Syntax Highlighting**:
-  - VS Code: See `warpy40k-syntax/README.md`
-  - Sublime Text: See `warpy40k-sublime/README.md`
+- **Linter**: Veja [LINTER_README.md](./docs/LINTER_README.md) para códigos de erro, integração e uso avançado.
+- **Destaque de Sintaxe**:
+  - VS Code: Veja `warpy40k-syntax/README.md`
+  - Sublime Text: Veja `warpy40k-sublime/README.md`
 
 ## Referências
 
@@ -257,25 +258,25 @@ O projeto está organizado nos seguintes módulos principais:
 5. **Otimizações**: Cache de AST para arquivos não modificados
 6. **Documentação**: Melhorar documentação inline e exemplos
 
-## Project Structure
+## Estrutura do Projeto
 
-- `warpy_interpreter.py`: Interpreter and runtime logic
-- `warpy_linter.py`: Linter for static analysis
-- `tests/`: Example scripts including arithmetic tests
-- `warpy40k-syntax/`: VS Code syntax highlighting extension
-- `warpy40k-sublime/`: Sublime Text syntax highlighting extension
+- `warpy_interpreter.py`: Interpretador e lógica de execução
+- `warpy_linter.py`: Linter para análise estática
+- `tests/`: Scripts de exemplo incluindo testes aritméticos
+- `warpy40k-syntax/`: Extensão de destaque de sintaxe para VS Code
+- `warpy40k-sublime/`: Extensão de destaque de sintaxe para Sublime Text
 
-## Contributing
+## Contribuições
 
-Contributions are welcome! Please see the linter and syntax extension READMEs for extension guidelines.
+Contribuições são bem-vindas! Por favor, consulte os READMEs do linter e das extensões de sintaxe para diretrizes de extensão.
 
-## License
+## Licença
 
-This project is licensed under the same terms as the WarPy40K project. See `LICENSE` for details.
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para detalhes completos.
 
 ---
 
-*For the Emperor!*
+## For the Emperor!
 
 ```text
                                                                                                                                                              
